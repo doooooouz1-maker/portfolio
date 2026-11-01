@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#dfdcd2">
+<title>PORTFOLIO CONTENTS — SUNYIMIN</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body class="contents-page">
+<h1 id="contents-title" class="contents-page-label">PORTFOLIO CONTENTS</h1>
+<button class="menu-toggle" type="button" aria-label="メニュー" aria-expanded="false" aria-controls="site-menu"><span></span><span></span><span></span></button>
+<div class="menu-backdrop" hidden></div>
+<div id="site-menu" class="site-menu" role="dialog" aria-modal="true" aria-labelledby="menu-title" hidden>
+  <header class="menu-header"><span id="menu-title">MENU</span><button class="menu-close" type="button" aria-label="メニューを閉じる">×</button></header>
+  <nav class="menu-links" aria-label="Main navigation">
+    <a href="index.html"><span class="menu-number">01</span><span class="menu-label">HOME</span></a>
+    <a href="about.html"><span class="menu-number">02</span><span class="menu-label">ABOUT ME</span></a>
+    <a href="contents.html" aria-current="page"><span class="menu-number">03</span><span class="menu-label menu-portfolio">PORTFOLIO<br>CONTENTS</span></a>
+  </nav>
+</div>
+<main class="contents-main">
+ <section class="contents-board" aria-labelledby="contents-title">
+
+  <ol class="contents-list">
+   <li class="contents-project project-one"><h2><a class="corona-link" href="coronavirus.html"><span>1.コロナウイルス</span><span>　自分検査のアプリケーション<small>2020</small></span></a></h2></li>
+   <li class="contents-project project-two"><h2><a class="corona-link" href="drink.html"><span>2.ドリンクカスタマイズ</span><span>　 アプリケーション<small>2021</small></span></a></h2></li>
+   <li class="contents-project project-three"><h2><a class="corona-link" href="smart-toy.html"><span>3.環境保護に基づいて子供向け</span><span>　 スマートおもちゃ<small>2024</small></span></a></h2></li>
+   <li class="contents-project project-four"><h2>4.その他の関連作品</h2>
+    <ul class="related-works">
+     <li><a href="corporate-site.html">・コーポレートサイトデザイン<small>2021</small></a></li>
+     <li><a href="infographic.html">・インフォグラフィック<small>2022</small></a></li>
+     <li><a href="fanevent.html">・ファンイベント ビジュアルデザイン<small>2025</small></a></li>
+    </ul>
+   </li>
+  </ol>
+ </section>
+</main>
+</body>
+</html>
