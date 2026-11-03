@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#d6d5cc">
+<title>SUNYIMIN — Design Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body class="home-page">
+<button class="menu-toggle" type="button" aria-label="メニュー" aria-expanded="false" aria-controls="site-menu"><span></span><span></span><span></span></button>
+<div class="menu-backdrop" hidden></div>
+<div id="site-menu" class="site-menu" role="dialog" aria-modal="true" aria-labelledby="menu-title" hidden>
+  <header class="menu-header"><span id="menu-title">MENU</span><button class="menu-close" type="button" aria-label="メニューを閉じる">×</button></header>
+  <nav class="menu-links" aria-label="Main navigation">
+    <a href="index.html"><span class="menu-number">01</span><span class="menu-label">HOME</span></a>
+    <a href="about.html"><span class="menu-number">02</span><span class="menu-label">ABOUT ME</span></a>
+    <a href="contents.html"><span class="menu-number">03</span><span class="menu-label menu-portfolio">PORTFOLIO<br>CONTENTS</span></a>
+  </nav>
+</div>
+<main class="home-cover">
+  <section class="cover-artboard" aria-label="SUNYIMIN Design Portfolio">
+    <p class="cover-word cover-design"><a href="contents.html">DESIGN</a></p>
+    <p class="cover-word cover-project"><a href="contents.html">PROJECT</a></p>
+    <h1 class="cover-word cover-name" lang="ja"><a href="about.html">ソンギビン</a></h1>
+    <p class="cover-word cover-roman"><a href="about.html">SUNYIMIN</a></p>
+    <p class="cover-word cover-ui"><a href="contents.html">UI/UX</a></p>
+    <p class="cover-word cover-portfolio"><a href="contents.html">PORTFOLIO</a></p>
+  </section>
+</main>
+</body>
+</html>
